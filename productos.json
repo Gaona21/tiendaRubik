@@ -1,0 +1,14 @@
+[
+    {"id": 1, "nombre": "Cubo Rubik 2x2",    "precio":640,  "img": "./img/cubos/cubo2x2.png"},
+    {"id": 2, "nombre": "Cubo Rubik 3x3",    "precio":1240, "img": "./img/cubos/cubo3x3.png"},
+    {"id": 3, "nombre": "Piramix 3x3",       "precio":640,  "img": "./img/cubos/piramix3x3.png"},
+    {"id": 4, "nombre": "Cubo Rubik 4x4",    "precio":1600, "img": "./img/cubos/cubo4x4.png"},
+    {"id": 5, "nombre": "Cubo Mirror 3x3",   "precio":1500, "img": "./img/cubos/cuboMirror3x3.png"},
+    {"id": 6, "nombre": "Llavero cubo 2x2",  "precio":1000, "img": "./img/cubos/llavero2x2.png"},
+    {"id": 7, "nombre": "Llavero cubo 3x3",  "precio":1200, "img": "./img/cubos/llavero3x3.png"},
+    {"id": 8, "nombre": "Soporte para cubo", "precio":450,  "img":  "./img/cubos/soporteCubo.png"},
+    {"id": 9, "nombre": "Almacenaje",        "precio":750,  "img":  "./img/cubos/almacenaje.png"},
+    {"id": 9, "nombre": "Cubo Trix",         "precio":2100, "img": "./img/cubos/magicTrix.png"},
+    {"id": 10,"nombre": "Lubricante",        "precio":450,  "img": "./img/cubos/lubricante.png"},
+    {"id": 10,"nombre": "Cubo Mirrir 2x2",   "precio":1000, "img": "./img/cubos/CuboMirror2x2.png"}
+]

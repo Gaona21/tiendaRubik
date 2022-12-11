@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="icon" href="./img/rubik.png">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" type="text/css" href="style/style.css">
+	<title>Cubos rubik</title>
+</head>
+<body>	
+
+	<main class="main">
+		<header class="header">
+			<div class="cont-logo">
+				<a href="index.html"><span class="cube">Cube</span><span class="store">Store</span></a>
+			</div>
+
+			<div class="cont-carrito">
+				<img id="mostrarCarrito" src="img/carrito.png" width="25px">
+			</div>
+		</header>
+
+		<div class="listaCompra" id="listaCompra">
+			<button id="ocultarCarrito">X</button>
+
+			<table>
+				<tr>
+					<th>Producto</th>
+					<th>Precio</th>
+					<th>Cantidad</th>
+					<th>Sub.Total</th>
+				</tr>
+			</table>
+
+			<div class="contenedor-carrito">
+				<div class="cont-listaPedidos">
+				</div>
+			</div>
+
+			<!--<button id="vaciar-carrito" class="btnVaciarCarrito">Vaciar carrito</button>-->
+			
+			<div class="conrBtnCarrito">
+				<div class="precio-total">
+				TOTAL: $0
+			</div>
+
+			<div class="cont-pagar">
+				<button id="pagar" class="btnPagar">Finalizar compra</button>
+			</div>
+			</div>
+			
+
+		</div>
+
+		<h1 class="titulo">Cubos rubik y accesorios</h1>
+
+		<div class="cont-cards">
+		</div>
+
+		<div class="mensaje-modal" id="cont-modal">		
+		</div>
+		
+	</main>
+
+	<footer class="footer">
+		<div class="cont-redes">
+			<ul>
+				<li class="link-redes"><a href="#"><img src="./img/facebook.png" alt="facebook"> Facebook</a></li>
+				<li class="link-redes"><a href="#"><img src="./img/instagram.png" alt="Instagram"> Instagram</a></li>
+				<li class="link-redes"><a href="#"><img src="./img/gmail.png" alt="Email"> </a>Email</li>
+			</ul>
+		</div>
+
+		<div class="cont-info">
+			<p>Todos los produstos son originales e importados, por consultas o reclamos hablenos por nustras redes sociales.</p>
+		</div>
+
+		<div class="cont-direc">
+			<a href="">  	
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105026.43293356159!2d-58.6610444566406!3d-34.65278279999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc91dea149d4b%3A0xd65cb4c82b707df7!2sLocos%20por%20el%20cubo%20rubik!5e0!3m2!1ses-419!2sar!4v1670707679139!5m2!1ses-419!2sar" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</a>
+		</div>
+
+	</footer>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="./src.js"></script>
+</body>
+</html>
